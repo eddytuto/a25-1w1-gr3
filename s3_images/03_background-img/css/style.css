@@ -1,0 +1,27 @@
+* {
+    box-sizing:border-box;
+    margin : 0;
+    padding: 0;
+}
+
+body {
+    /* On défini une image en arrière plan */
+    /*  le «..» permet de remonter au dossier parent */
+    background-image: url("../images/img-01.jpeg");
+    /* pour définir le type de répétition de l'image */
+    background-repeat: no-repeat;
+    /* équivalent à « object-fit: cover » des images <img> */
+    background-size: cover;
+    height: 100vh;
+     text-align: center;
+}
+
+h1{
+    max-width : 900px;
+    display: inline-block;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    padding: 40px;
+    margin: 49px;
+    background-color: rgba(240, 248, 255, 0.84);
+}
