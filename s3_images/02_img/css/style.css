@@ -1,0 +1,37 @@
+* {
+    box-sizing:border-box;
+    margin : 0;
+    padding: 0;
+}
+
+img {
+    display: inline-block;
+    background-color : rgb(207, 126, 126);
+    padding : 0px;
+    margin: 0px;
+    width: 185px;
+    height : 200px;
+    border-bottom:2px solid #aaa;
+    /* contain: affiche l'ensemble de l'image dans la
+     balise img en maintenant ses proportions */
+    /* object-fit:contain;  */
+
+    /* couvre le conteneur img globalement en tronquant l'image si besoin */
+    object-fit:cover; 
+}
+
+figure {
+    display: inline-block;
+    border : 2px solid #aaa;
+}
+
+figcaption{
+    padding: 3px; 
+}
+figcaption p {
+   font-size: 12px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+p{
+    display: inline-block;
+}
