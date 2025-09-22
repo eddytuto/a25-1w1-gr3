@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box; 
+}
+
+
+body{
+margin:0;
+padding:0;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+color : rgb(255, 72, 0);
+}
+
+a{
+    display: block;
+    color : rgb(130, 14, 14);
+}
+
+a:visited {
+    color : rgb(177, 28, 222);
+}
+a:hover{
+    color : #d3dd16
+}
+
+section {
+    border: 1px solid #aaa;
+    display : inline-block;
+    width : 32%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
