@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche</title>
+    <style>
+
+    
+  /* 
+      Formatage css de l'attribut placeholder 
+  https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder */
+
+        .recherche{
+            display: inline-block;
+            border : 1px solid #777;
+            padding : 0;
+            height: 30px;
+        }
+        .recherche:hover{
+            outline: 1px solid #f00;
+        }
+
+        .recherche__input {
+            border : none;
+            margin : 0;
+            padding:3px;
+
+        }
+        .recherche__input:focus {
+            /*border : none;*/
+            outline: none;
+            background-color: #ddd;
+        }
+
+        .recherche__img {
+            display:inline-block;
+            padding: 3px;
+        }
+
+    </style>
+</head>
+<body>
+    <form class="recherche">
+            <input  class="recherche__input" type="text" placeholder="Rechercher">
+            <img  class="recherche__img" src="https://s2.svgbox.net/materialui.svg?ic=search&color=000" width="16" height="16">
+    </form>
+</body>
+</html>

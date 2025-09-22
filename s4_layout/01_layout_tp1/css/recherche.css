@@ -1,0 +1,26 @@
+ .recherche{
+            display: inline-block;
+            border : 1px solid #777;
+            padding : 0;
+            height: 30px;
+        }
+        .recherche:hover{
+            outline: 1px solid #f00;
+        }
+
+        .recherche__input {
+            border : none;
+            margin : 0;
+            padding:3px;
+
+        }
+        .recherche__input:focus {
+            /*border : none;*/
+            outline: none;
+            background-color: #ddd;
+        }
+
+        .recherche__img {
+            display:inline-block;
+            padding: 3px;
+        }

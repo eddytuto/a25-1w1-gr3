@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+
+.haut {
+    background-color: #fff;
+}
+.bas{
+    background-color: black;
+}
+.centre{
+    width:960px;
+    margin: 0 auto;
+    border : 1px solid #ccc;
+}
+
+header {
+    height : 10vh;
+}
+
+main{
+     height : 60vh;
+}
+/* pied de page (footer) */
+.pied {
+   color : #fff; 
+    height : 30vh;
+}
+
+.pied__section {
+    display : inline-block;
+    border : 1px solid #fff;
+    width : 33%;
+    vertical-align: top;
+}
