@@ -10,40 +10,51 @@
   /* 
       Formatage css de l'attribut placeholder 
   https://developer.mozilla.org/en-US/docs/Web/CSS/::placeholder */
+*{
+    box-sizing: border-box;
+}
 
+body {
+    background-color: black;
+}
         .recherche{
             display: inline-block;
             border : 1px solid #777;
-            padding : 0;
-            height: 30px;
+            padding : 3px 0;
+           /* height: 30px; */
         }
         .recherche:hover{
-            outline: 1px solid #f00;
+            outline: 1px dotted rgba(7, 31, 61, 0.463);
         }
 
         .recherche__input {
+            display:inline-block;
+            vertical-align: top;
             border : none;
             margin : 0;
-            padding:3px;
+            padding : 4px 0 0 3px;
+            background-color: transparent;
+            color: #eee;
 
         }
         .recherche__input:focus {
             /*border : none;*/
             outline: none;
-            background-color: #ddd;
+           /* background-color: #ddd;*/
         }
 
         .recherche__img {
             display:inline-block;
-            padding: 3px;
+            margin:0;
+            padding : 4px 0 0 0;
         }
 
     </style>
 </head>
 <body>
     <form class="recherche">
-            <input  class="recherche__input" type="text" placeholder="Rechercher">
-            <img  class="recherche__img" src="https://s2.svgbox.net/materialui.svg?ic=search&color=000" width="16" height="16">
+            <input  class="recherche__input" type="search" placeholder="Rechercher">
+            <img  class="recherche__img" src="https://s2.svgbox.net/materialui.svg?ic=search&color=bbb" width="18" height="18">
     </form>
 </body>
 </html>
