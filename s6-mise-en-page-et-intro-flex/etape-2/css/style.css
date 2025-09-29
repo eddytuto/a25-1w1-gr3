@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+}
+body{
+    margin:0;
+    padding:30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+section{
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0.428);
+}
+
+.couleur-1{background-color: aqua;}
+.couleur-2{background-color: rgb(157, 62, 21);}
+.couleur-3{background-color: rgb(40, 171, 28);}
+.couleur-4{background-color: rgb(11, 13, 88);}
+
+.centre{
+    margin: 0 auto;
+    max-width : 1000px;
+}

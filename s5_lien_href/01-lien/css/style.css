@@ -14,12 +14,28 @@ a{
     display: block;
     color : rgb(130, 14, 14);
 }
-
-a:visited {
-    color : rgb(177, 28, 222);
+/* lien non visité */
+a:link {
+   color : rgb(126, 187, 240);
+    background-color: #5d0633;
 }
+/* lien visité */
+a:visited {
+    color : rgb(17, 132, 233);
+    background-color: #ecf18d;
+}
+
+/* lien survolé par la souris */
 a:hover{
-    color : #d3dd16
+    color : #d3dd16;
+    background-color: #004;
+    
+}
+
+/* lien actif : quand on click sur un lien */
+a:active{
+    color :#0e900e;
+    background-color: rgb(34, 13, 2);
 }
 
 section {
