@@ -2,7 +2,6 @@
             display: inline-block;
             border : 1px solid #777;
             padding : 0;
-            height: 30px;
             width : 100%;
         }
         .recherche:hover{
@@ -12,7 +11,6 @@
         .recherche__input {
             border : none;
             margin : 0;
-            padding:3px;
             width :90%;
 
         }
@@ -24,5 +22,4 @@
 
         .recherche__img {
             display:inline-block;
-            padding: 3px;
         }
