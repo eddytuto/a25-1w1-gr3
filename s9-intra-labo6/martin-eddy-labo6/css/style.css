@@ -11,6 +11,7 @@ body{
 }
 h1,h2{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color :#555;
 }
 figure {
     margin : 0;
@@ -22,7 +23,7 @@ figure {
     background-color: rgb(56 182 255);
 }
 .millieu{
-     background-color: rgb(99, 177, 172);
+         background-color: rgb(185 251 240);
 }
 .bas{
       background-color: rgb(83, 129, 159);
@@ -33,13 +34,15 @@ figure {
     max-width : 1100px;
     margin : 0 auto;
     background-color: #ffffff49;
-    align-items: center;
-    flex-wrap: wrap;
+    padding : 35px;
+
+
 }
 /* /////////////////////////////////////////////////////////// .entete   */
 .entete{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .entete__titre{
     display: flex;
@@ -54,7 +57,7 @@ figure {
     border-radius: 50%;
 }
 .entete__h1{
-    font-size: 4rem;
+    font-size: 4.5rem;
 }
 .entete__navform{
     display: flex;
@@ -98,6 +101,14 @@ figure {
     flex-shrink:0 ;
     flex-basis: 300px;
 }
+.principal__article h2{
+    font-size: 2.5rem;
+}
+.principal__ul {
+    list-style: none;
+    padding:0;
+    margin:0;
+}
 .principal__article p {
    line-height: 1.5rem;
 }
@@ -105,7 +116,7 @@ figure {
 .principal__figure{
     flex-grow:1 ;
     flex-shrink:0 ;
-    flex-basis: 400px ;
+    flex-basis: 500px ;
 }
 .principal__figure  img {
 display : block;
