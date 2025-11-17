@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monopage</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div>
+        <header class="entete centre">
+            <h1>Site monopage</h1>
+            <nav class="entete__nav">
+                <a href="#un">Un</a>
+                <a href="#inscription">Inscription</a>
+                <a href="#trois">Trois</a>
+                <a href="#quatre">Quatre</a>
+            </nav>
+        </header>
+    </div>
+    <div>
+        <section id="un" class="un centre">
+            <h1>Un</h1>
+            <a href="#">Accueil</a>
+        </section>
+    </div>
+     <div>
+        <section id="inscription" class="deux centre">
+            <h1>Inscription</h1>
+            <a href="#">Accueil</a>
+        </section>
+    </div>
+     <div>
+        <section id="trois" class="trois centre">
+            <h1>Trois</h1>
+            <a href="#">Accueil</a>
+        </section>
+    </div>
+    <div>
+        <section id="quatre" class="quatre centre">
+            <h1>Quatre</h1>
+            <a href="#">Accueil</a>
+        </section>
+    </div>
+
+<!-- Charger le polyfill -->
+<script src="https://unpkg.com/smoothscroll-polyfill/dist/smoothscroll.min.js"></script>
+
+<!-- Initialisation après chargement -->
+<script>
+  window.addEventListener('load', function() {
+    if (typeof smoothscroll !== 'undefined' && smoothscroll.polyfill) {
+      smoothscroll.polyfill();
+      console.log('✅ Smooth Scroll polyfill activé');
+    } else {
+      console.warn('⚠️ smoothscroll non chargé');
+    }
+  });
+</script>
+
+
+</body>
+</html>
+

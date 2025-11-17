@@ -1,0 +1,13 @@
+.formulaire{}
+.formulaire__div{
+    margin : 20px 0;
+}
+.formulaire__label{
+    display:block;
+}
+.formulaire__input{
+    margin: 10px 0;
+}
+.formulaire__input:checked{
+    background-color: brown;
+}

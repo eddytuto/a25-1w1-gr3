@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+html{
+    font-size: 14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    margin :0;
+    padding:0;
+    
+}
+.centre{
+    max-width: 1100px;
+    margin:0 auto;
+}
+table {
+    border : 1px solid #aaa;
+    width : 100%;
+    /* margin:0 auto; */
+}
+
+td,th {
+    border : 1px solid #aaa;
+    padding: 5px;
+    font-size: 4rem;
+}
+
+th {
+    text-align: left;
+}
+
+thead{
+    background-color: aqua;
+}
+tbody{
+    background-color: rgb(182, 190, 33);
+}
+tfoot{
+    background-color: rgb(229, 101, 58);
+}
+caption {
+    font-size: 6rem;
+    background-color: rgb(229, 101, 58);
+}
+tbody tr:nth-of-type(odd){
+    background-color: #ffffff79;
+}
+tbody tr:hover{
+     background-color: #0e4f9f;
+     color : #fff;
+}
