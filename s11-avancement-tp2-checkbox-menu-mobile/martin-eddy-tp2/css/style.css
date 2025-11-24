@@ -38,6 +38,15 @@ figure > img {
     margin : 0 auto;
     background-color: #ffffff47;
 }
+
+.knewave-regular {
+  font-family: "Knewave", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 4rem;
+}
+
+
 /* ///////////////////////////////////////// colloration des sections */
 /*
 .un{
@@ -68,5 +77,11 @@ body > div:nth-of-type(4){
 }
 body > div:nth-of-type(5){
     background-color: rgb(40, 13, 158);
+}
+
+/* ////////////////////////////////////////////// division .hero */
+.hero {
+    min-height: 100vh;
+    background-image: url("../images/Montreal-birdseye-view.webp");
 }
 

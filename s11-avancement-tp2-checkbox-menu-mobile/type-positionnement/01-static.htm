@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        html{
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            font-size: 14px;
+        }
+        body{
+            margin : 0;
+            padding:0;
+        }
+        div{
+            display:inline-block;
+            width : 300px;
+            height : 200px;
+            border: 2px solid #aaa;
+            text-align:center;
+            padding : 40px;
+            font-size: 3rem;
+        }
+        .mon-static{
+            /*  position pas défaut est toujours static
+                dons il n'est pas nécessaire d'ajouter cette déclaration
+            */
+            position: static;
+        }
+
+    </style>
+</head>
+<body>
+    <!--
+    expression emmet pour générer 5 div
+    (div.mon-static{$})*5
+    -->
+    <div class="mon-static">1</div>
+    <div class="mon-static">2</div>
+    <div class="mon-static">3</div>
+    <div class="mon-static">4</div>
+    <div class="mon-static">5</div>
+</body>
+</html>
