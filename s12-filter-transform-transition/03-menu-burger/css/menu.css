@@ -1,0 +1,33 @@
+#chk-burger {
+  display : none;
+
+
+}
+
+/* https://cubic-bezier.com/ */
+.navigation{
+    position: fixed;
+    top : 40px;
+    right : 10px;
+    width : 400px;
+    border  : 2px solid #aaa;
+    transform: translateX(120%);
+   /*  
+   transition: transform 1s linear; 
+   transition: transform 1s ease-in-out; */
+
+    transition: transform 1s cubic-bezier(.96,.96,.44,.44);
+
+}
+.navigation__bouton {
+    position : fixed;
+    top : 10px;
+    right : 10px;
+}
+#chk-burger:checked ~ .navigation{
+    transform: translateX(0);
+}
+.navigation a{
+    display: block;
+    color : #b21f1f;
+}
