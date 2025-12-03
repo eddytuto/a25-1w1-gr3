@@ -1,9 +1,25 @@
 .article{
     display: flex;
-    
+    gap : 20px;
+    /*
+    flex-wrap: wrap;
+    */
+
 }
-.article__div {}
+.article__div {
+    /*
+    flex-grow: ;
+    flex-shrink: ;
+    flex-basis: ;
+    */
+}
 .article__div p {}
-.article__figure {}
+.article__figure {
+    /*
+    flex-grow: ;
+    flex-shrink: ;
+    flex-basis: ;
+    */
+}
 .article__figure img {}
 .article__figure figcaption {}
